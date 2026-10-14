@@ -80,8 +80,6 @@ html {
 }
 
 body {
-    min-width: 320px;
-
     font-family: var(--font-family);
     font-size: var(--font-size-md);
     line-height: 1.6;
@@ -315,11 +313,10 @@ textarea {
 ========================================= */
 
 .card-grid {
-    display: grid;
-
-    grid-template-columns: repeat(3, 1fr);
-
+    display: flex;
+    justify-content: space-between;
     gap: var(--space-lg);
+    flex-wrap: wrap;
 }
 
 .card {
@@ -387,9 +384,8 @@ textarea {
     .hero h1 {
         font-size: var(--font-size-xxl);
     }
-
-    .card-grid {
-        grid-template-columns: repeat(3, 1fr);
+    .card-grid .card{
+        width: calc((100% - (2 * var(--space-lg))) / 3);
     }
 
 }
@@ -430,8 +426,8 @@ textarea {
         font-size: var(--font-size-md);
     }
 
-    .card-grid {
-        grid-template-columns: repeat(2, 1fr);
+    .card-grid .card {
+        width: calc((100% - var(--space-lg)) / 2);
     }
 
 }
@@ -693,11 +689,11 @@ textarea {
        CARDS
     ------------------------------------- */
 
-    .card-grid {
+    /* .card-grid {
         grid-template-columns: 1fr;
 
         gap: var(--space-md);
-    }
+    } */
 
     .card {
         width: 100%;
