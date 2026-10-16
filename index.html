@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Learn Space | Home</title>
+    <title>LearnSpace | Learn Today, Grow Tomorrow</title>
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- HEADER -->
+    <!-- =========================================
+         HEADER
+    ========================================== -->
     <header class="site-header">
 
         <div class="container header-container">
@@ -21,8 +23,7 @@
                 Learn<span>Space</span>
             </a>
 
-            <!-- CSS-only burger menu toggle -->
-                <input
+            <input
                 type="checkbox"
                 id="menu-toggle"
                 class="menu-toggle"
@@ -38,9 +39,10 @@
                 <span></span>
             </label>
 
-            <nav class="main-nav">
+            <nav class="main-nav" aria-label="Main navigation">
 
                 <ul>
+
                     <li>
                         <a href="index.html" class="active">
                             Home
@@ -64,6 +66,7 @@
                             Contact
                         </a>
                     </li>
+
                 </ul>
 
             </nav>
@@ -73,26 +76,90 @@
     </header>
 
 
-    <!-- MAIN -->
     <main>
 
-        <section class="hero">
+        <!-- =========================================
+             HERO
+        ========================================== -->
+        <section class="home-hero">
 
-            <div class="container hero-content">
+            <div class="container home-hero-container">
 
-                <h1>
-                    Learn Today, Grow Tomorrow
-                </h1>
+                <div class="home-hero-content">
 
-                <p>
-                    Explore engaging courses, build new skills,
-                    and learn at your own pace with LearnSpace.
-                </p>
+                    <p class="home-eyebrow">
+                        LEARN • GROW • ACHIEVE
+                    </p>
 
-                <div id="explore-container">
-                    <a href="resources.html" class="btn btn-primary">
-                        Explore Resources
-                    </a>
+                    <h1>
+                        Learn Today,
+                        <span>Grow Tomorrow.</span>
+                    </h1>
+
+                    <p class="home-hero-text">
+                        LearnSpace helps students build better learning
+                        habits, discover useful resources, and develop
+                        the skills they need to achieve their goals.
+                    </p>
+
+                    <div class="home-hero-actions">
+
+                        <a
+                            href="resources.html"
+                            class="btn btn-primary"
+                        >
+                            Explore Resources
+                        </a>
+
+                        <a
+                            href="about.html"
+                            class="home-secondary-btn"
+                        >
+                            Learn More
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="home-hero-image">
+
+                    <div class="home-image-wrapper">
+
+                        <img
+                            src="images/students-learning-together.avif"
+                            alt="Students learning together"
+                        >
+
+                    </div>
+
+
+                    <div class="home-floating-card home-floating-card-one">
+
+                        <strong>
+                            100%
+                        </strong>
+
+                        <span>
+                            Learn at your pace
+                        </span>
+
+                    </div>
+
+
+                    <div class="home-floating-card home-floating-card-two">
+
+                        <strong>
+                            6+
+                        </strong>
+
+                        <span>
+                            Learning resources
+                        </span>
+
+                    </div>
+
                 </div>
 
             </div>
@@ -100,47 +167,482 @@
         </section>
 
 
-        <section class="section">
+        <!-- =========================================
+             WHY LEARNSPACE
+        ========================================== -->
+        <section class="section home-feature-section">
 
             <div class="container">
 
-                <h2 class="section-title">
-                    Start Your Learning Journey
-                </h2>
+                <div class="home-section-heading">
 
-                <div class="card-grid">
+                    <p class="home-eyebrow">
+                        WHY LEARNSPACE
+                    </p>
 
-                    <article class="card">
-                        <h3>Learn New Skills</h3>
+                    <h2 class="section-title">
+                        Everything You Need to Learn Better
+                    </h2>
 
-                        <p>
-                            Discover practical lessons and courses
-                            designed to help you develop valuable
-                            skills for school, work, and everyday life.
-                        </p>
+                    <p>
+                        Learning becomes easier when you have the right
+                        tools, resources, and habits. LearnSpace gives
+                        you simple guidance to help you stay focused
+                        and make progress.
+                    </p>
+
+                </div>
+
+
+                <div class="home-feature-grid">
+
+
+                    <!-- FEATURE 1 -->
+
+                    <article class="home-feature-card">
+
+                        <div class="home-feature-icon">
+
+                            <img
+                                src="images/books-and-learning-materials.avif"
+                                alt="Books and learning materials"
+                            >
+
+                        </div>
+
+                        <div class="home-feature-content">
+
+                            <h3>
+                                Useful Resources
+                            </h3>
+
+                            <p>
+                                Access practical learning materials
+                                that can help you study, prepare,
+                                and improve your skills.
+                            </p>
+
+                        </div>
+
                     </article>
 
 
-                    <article class="card">
-                        <h3>Study at Your Own Pace</h3>
+                    <!-- FEATURE 2 -->
 
-                        <p>
-                            Learn whenever and wherever you want.
-                            Review lessons, practice your skills,
-                            and progress at a comfortable pace.
-                        </p>
+                    <article class="home-feature-card">
+
+                        <div class="home-feature-icon">
+
+                            <img
+                                src="images/laptop-for-online-learning.avif"
+                                alt="Laptop for online learning"
+                            >
+
+                        </div>
+
+                        <div class="home-feature-content">
+
+                            <h3>
+                                Learn Anywhere
+                            </h3>
+
+                            <p>
+                                Use LearnSpace from your computer,
+                                tablet, or mobile device whenever
+                                you are ready to learn.
+                            </p>
+
+                        </div>
+
                     </article>
 
 
-                    <article class="card">
-                        <h3>Build Your Knowledge</h3>
+                    <!-- FEATURE 3 -->
+
+                    <article class="home-feature-card">
+
+                        <div class="home-feature-icon">
+
+                            <img
+                                src="images/notebook-for-learning-and-planning.avif"
+                                alt="Notebook for learning and planning"
+                            >
+
+                        </div>
+
+                        <div class="home-feature-content">
+
+                            <h3>
+                                Build Better Habits
+                            </h3>
+
+                            <p>
+                                Discover simple techniques for
+                                managing your time, setting goals,
+                                and becoming a better learner.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             POPULAR TOPICS
+        ========================================== -->
+        <section class="section home-topics-section">
+
+            <div class="container">
+
+                <div class="home-section-heading">
+
+                    <p class="home-eyebrow">
+                        POPULAR TOPICS
+                    </p>
+
+                    <h2 class="section-title">
+                        Explore Learning Topics
+                    </h2>
+
+                    <p>
+                        Start with the topics that can make your
+                        learning experience more organized and
+                        effective.
+                    </p>
+
+                </div>
+
+
+                <div class="home-topic-grid">
+
+
+                    <a
+                        href="resources.html"
+                        class="home-topic-card"
+                    >
+
+                        <div class="home-topic-number">
+                            01
+                        </div>
+
+                        <h3>
+                            Study Techniques
+                        </h3>
 
                         <p>
-                            Strengthen your knowledge through
-                            interactive learning materials, helpful
-                            resources, and practical activities.
+                            Learn practical ways to study
+                            more effectively.
                         </p>
+
+                        <span>
+                            Explore →
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="resources.html"
+                        class="home-topic-card"
+                    >
+
+                        <div class="home-topic-number">
+                            02
+                        </div>
+
+                        <h3>
+                            Time Management
+                        </h3>
+
+                        <p>
+                            Organize your time and make
+                            every study session count.
+                        </p>
+
+                        <span>
+                            Explore →
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="resources.html"
+                        class="home-topic-card"
+                    >
+
+                        <div class="home-topic-number">
+                            03
+                        </div>
+
+                        <h3>
+                            Exam Preparation
+                        </h3>
+
+                        <p>
+                            Prepare with better strategies
+                            and greater confidence.
+                        </p>
+
+                        <span>
+                            Explore →
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="resources.html"
+                        class="home-topic-card"
+                    >
+
+                        <div class="home-topic-number">
+                            04
+                        </div>
+
+                        <h3>
+                            Goal Setting
+                        </h3>
+
+                        <p>
+                            Set clear goals and create
+                            meaningful learning progress.
+                        </p>
+
+                        <span>
+                            Explore →
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             LEARNING EXPERIENCE
+        ========================================== -->
+        <section class="section home-learning-section">
+
+            <div class="container home-learning-container">
+
+
+                <div class="home-learning-image">
+
+                    <img
+                        src="images/students-studying-at-desk.avif"
+                        alt="Student studying at a desk"
+                    >
+
+                </div>
+
+
+                <div class="home-learning-content">
+
+                    <p class="home-eyebrow">
+                        YOUR LEARNING JOURNEY
+                    </p>
+
+                    <h2 class="section-title">
+                        Learning Should Be Simple and Practical
+                    </h2>
+
+                    <p>
+                        You don't need complicated systems to become
+                        a better learner. Small improvements in your
+                        study habits can make a big difference over time.
+                    </p>
+
+                    <p>
+                        LearnSpace provides easy-to-understand resources
+                        designed to help you plan your studies, stay
+                        organized, and develop confidence.
+                    </p>
+
+
+                    <ul class="home-check-list">
+
+                        <li>
+                            <span>✓</span>
+                            Easy-to-understand learning resources
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Practical study strategies
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Helpful planning techniques
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Resources for different learning needs
+                        </li>
+
+                    </ul>
+
+
+                    <a
+                        href="about.html"
+                        class="btn btn-primary"
+                    >
+                        Discover LearnSpace
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             LEARNING RESOURCES
+        ========================================== -->
+        <section class="section home-resource-section">
+
+            <div class="container">
+
+                <div class="home-section-heading">
+
+                    <p class="home-eyebrow">
+                        GET STARTED
+                    </p>
+
+                    <h2 class="section-title">
+                        Learning Resources
+                    </h2>
+
+                    <p>
+                        Explore practical resources designed to
+                        support you throughout your learning journey.
+                    </p>
+
+                </div>
+
+
+                <div class="home-resource-grid">
+
+
+                    <!-- RESOURCE 1 -->
+
+                    <article class="home-resource-card">
+
+                        <div class="home-resource-icon">
+                            📚
+                        </div>
+
+                        <h3>
+                            Study Guides
+                        </h3>
+
+                        <p>
+                            Simple guides to help you understand
+                            important study techniques.
+                        </p>
+
+                        <a href="resources.html">
+                            View Resources →
+                        </a>
+
                     </article>
+
+
+                    <!-- RESOURCE 2 -->
+
+                    <article class="home-resource-card">
+
+                        <div class="home-resource-icon">
+                            ⏰
+                        </div>
+
+                        <h3>
+                            Planning Tools
+                        </h3>
+
+                        <p>
+                            Learn how to organize your time,
+                            assignments, and study schedule.
+                        </p>
+
+                        <a href="resources.html">
+                            View Resources →
+                        </a>
+
+                    </article>
+
+
+                    <!-- RESOURCE 3 -->
+
+                    <article class="home-resource-card">
+
+                        <div class="home-resource-icon">
+                            🎯
+                        </div>
+
+                        <h3>
+                            Goal Setting
+                        </h3>
+
+                        <p>
+                            Turn your learning goals into
+                            clear and achievable steps.
+                        </p>
+
+                        <a href="resources.html">
+                            View Resources →
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             FINAL CTA
+        ========================================== -->
+        <section class="home-cta">
+
+            <div class="container">
+
+                <div class="home-cta-content">
+
+                    <p class="home-eyebrow">
+                        START LEARNING TODAY
+                    </p>
+
+                    <h2>
+                        Your Next Step Starts Here
+                    </h2>
+
+                    <p>
+                        Explore our learning resources and discover
+                        simple ways to improve your study habits,
+                        organization, and confidence.
+                    </p>
+
+                    <a
+                        href="resources.html"
+                        class="btn home-cta-button"
+                    >
+                        Explore Resources
+                    </a>
 
                 </div>
 
@@ -151,14 +653,74 @@
     </main>
 
 
-    <!-- FOOTER -->
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
     <footer class="site-footer">
 
-        <div class="container">
+        <div class="container footer-grid">
 
-            <p>
-                &copy; 2026 LearnSpace. Learn, grow, and achieve more.
-            </p>
+            <div class="footer-brand">
+
+                <a href="index.html" class="logo">
+                    Learn<span>Space</span>
+                </a>
+
+                <p>
+                    Learn today, grow tomorrow.
+                    Simple resources for continuous learning.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Explore</h3>
+
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="resources.html">Resources</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Learning</h3>
+
+                <a href="resources.html">Study Skills</a>
+                <a href="resources.html">Technology</a>
+                <a href="resources.html">Languages</a>
+                <a href="resources.html">Mathematics</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Connect</h3>
+
+                <a href="contact.html">Contact Us</a>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <p>
+                    © 2026 LearnSpace. All rights reserved.
+                </p>
+
+            </div>
 
         </div>
 
