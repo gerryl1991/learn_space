@@ -1304,7 +1304,7 @@ textarea {
     color: var(--color-text-light);
 }
 
-.home-topic-card span {
+.home-topic-card a {
     color: var(--color-primary);
 
     font-weight: 700;
