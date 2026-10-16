@@ -1271,14 +1271,14 @@ textarea {
         box-shadow 0.25s ease;
 }
 
-.home-topic-card:hover {
+/* .home-topic-card:hover {
     transform: translateY(-6px);
 
     border-color: var(--color-primary);
 
     box-shadow:
         0 16px 30px rgba(37, 99, 235, 0.10);
-}
+} */
 
 .home-topic-number {
     margin-bottom: var(--space-md);
