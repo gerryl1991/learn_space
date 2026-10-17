@@ -94,6 +94,13 @@ LearnSpace/
 │   ├── style.css
 │   └── contact.css
 ├── images/
+│   ├── books-and-learning-materials.avif
+│   ├── laptop-for-online-learning.avif
+│   ├── notebook-for-learning-and-planning.avif
+│   ├── people-working-together.avif
+│   ├── students-learning-together.avif
+│   ├── students-studying-2.avif
+│   ├── students-studying-at-desk.avif
 │   └── students-studying.jpg
 └── fonts/
     └── Roboto/
