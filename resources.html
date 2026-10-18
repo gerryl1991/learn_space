@@ -2,250 +2,296 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>LearnSpace | Study Resources</title>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>LearnSpace | Resources</title>
+
+    <meta
+        name="description"
+        content="Explore practical study resources and learning strategies from LearnSpace."
+    >
 
     <link rel="stylesheet" href="./css/style.css">
+
 </head>
+
 
 <body>
 
-    <!-- HEADER -->
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
     <header class="site-header">
-        <div class="container header-container">
 
-            <a href="index.html" class="logo">
-                Learn<span>Space</span>
-            </a>
+        <div class="container">
 
-            <!-- CSS-only mobile menu -->
-            <input
-                type="checkbox"
-                id="menu-toggle"
-                class="menu-toggle"
-            >
-
-            <label
-                for="menu-toggle"
-                class="menu-button"
-                aria-label="Toggle navigation menu"
-            >
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-
-            <nav class="main-nav">
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="resources.html" class="active">
-                            Resources
-                        </a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-
-        </div>
-    </header>
-
-    <!-- MAIN CONTENT -->
-    <main>
-
-        <section class="section">
-            <div class="container">
-
-                <h1 class="section-title">
-                    Your Student Learning Hub
-                </h1>
-
-                <p>
-                    Studying does not have to feel overwhelming.
-                    Explore practical tips and strategies to help
-                    you manage your time, prepare for exams, and
-                    become a more confident learner.
-                </p>
-
-            </div>
-        </section>
-
-        <!-- STUDY RESOURCES -->
-        <section class="section">
-            <div class="container">
-
-                <h2 class="section-title">
-                    Explore Our Resources
-                </h2>
-
-                <div class="card-grid">
-
-                    <article class="card">
-                        <h3>Effective Study Techniques</h3>
-                        <p>
-                            Discover active recall, spaced repetition,
-                            and note-taking methods that can help
-                            you understand and remember information.
-                        </p>
-                    </article>
-
-                    <article class="card">
-                        <h3>Time Management</h3>
-                        <p>
-                            Learn how to create a realistic study
-                            timetable, set priorities, and break
-                            large assignments into manageable tasks.
-                        </p>
-                    </article>
-
-                    <article class="card">
-                        <h3>Exam Preparation</h3>
-                        <p>
-                            Prepare for assessments with revision
-                            plans, practice questions, and practical
-                            tips for managing exam pressure.
-                        </p>
-                    </article>
-
-                    <article class="card">
-                        <h3>Goal Setting</h3>
-                        <p>
-                            Set achievable academic goals, monitor
-                            your progress, and build consistent
-                            learning habits throughout the year.
-                        </p>
-                    </article>
-
-                    <article class="card">
-                        <h3>Assignment Planning</h3>
-                        <p>
-                            Organise research, plan your deadlines,
-                            and divide complex assignments into
-                            smaller steps that are easier to complete.
-                        </p>
-                    </article>
-
-                    <article class="card">
-                        <h3>Healthy Study Habits</h3>
-                        <p>
-                            Find ways to balance study sessions
-                            with breaks, sufficient rest, and other
-                            responsibilities in your daily life.
-                        </p>
-                    </article>
-
-                </div>
-
-            </div>
-        </section>
-
-        <!-- CALL TO ACTION -->
-        <section class="section">
-            <div class="container text-center">
-
-                <h2 class="section-title">
-                    Every Small Step Counts
-                </h2>
-
-                <p>
-                    Build your confidence one study session at a time.
-                    Choose a strategy, practise consistently, and
-                    keep working towards your academic goals.
-                </p>
-
-                <br>
-
-                <a href="index.html" class="btn btn-primary">
-                    Back to Home
-                </a>
-
-            </div>
-        </section>
-
-    </main>
-
-   
-    <!-- =========================================
-         FOOTER
-    ========================================== -->
-    <footer class="site-footer">
-
-        <div class="container footer-grid">
-
-            <div class="footer-brand">
+            <div class="header">
 
                 <a href="index.html" class="logo">
                     Learn<span>Space</span>
                 </a>
 
-                <p>
-                    Learn today, grow tomorrow.
-                    Simple resources for continuous learning.
-                </p>
 
-            </div>
+                <!-- MOBILE MENU -->
 
+                <input
+                    type="checkbox"
+                    id="menu-toggle"
+                    class="menu-toggle"
+                >
 
-            <div class="footer-column">
-
-                <h3>Explore</h3>
-
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="resources.html">Resources</a>
-                <a href="contact.html">Contact</a>
-
-            </div>
-
-
-            <div class="footer-column">
-
-                <h3>Learning</h3>
-
-                <a href="resources.html">Study Skills</a>
-                <a href="resources.html">Technology</a>
-                <a href="resources.html">Languages</a>
-                <a href="resources.html">Mathematics</a>
-
-            </div>
+                <label
+                    for="menu-toggle"
+                    class="menu-button"
+                    aria-label="Toggle navigation menu"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
 
 
-            <div class="footer-column">
+                <!-- NAVIGATION -->
 
-                <h3>Connect</h3>
+                <nav
+                    class="main-nav"
+                    aria-label="Main navigation"
+                >
 
-                <a href="contact.html">Contact Us</a>
-                <a href="#">Facebook</a>
-                <a href="#">Instagram</a>
-                <a href="#">LinkedIn</a>
+                    <a href="index.html">
+                        Home
+                    </a>
+
+                    <a href="about.html">
+                        About
+                    </a>
+
+                    <a
+                        href="resources.html"
+                        class="active"
+                        aria-current="page"
+                    >
+                        Resources
+                    </a>
+
+                    <a href="contact.html">
+                        Contact
+                    </a>
+
+                </nav>
 
             </div>
 
         </div>
 
+    </header>
 
-        <div class="footer-bottom">
+
+
+    <!-- =========================
+         MAIN
+    ========================== -->
+
+    <main>
+
+
+        <!-- RESOURCE INTRO -->
+
+        <section class="information-section">
 
             <div class="container">
 
-                <p>
-                    © 2026 LearnSpace. All rights reserved.
-                </p>
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        LEARNING RESOURCES
+                    </p>
+
+                    <h1>
+                        Your Student Learning Hub
+                    </h1>
+
+                    <p>
+                        Studying does not have to feel overwhelming.
+                        Explore practical tips and strategies to help
+                        you manage your time, prepare for exams, and
+                        become a more confident learner.
+                    </p>
+
+                </div>
+
+
+                <!-- RESOURCE GRID -->
+
+                <div class="resource-grid">
+
+
+                    <!-- RESOURCE 1 -->
+
+                    <div class="resource-card">
+
+                        <div class="resource-icon">
+                            01
+                        </div>
+
+                        <h2>
+                            Effective Study Techniques
+                        </h2>
+
+                        <p>
+                            Discover active recall, spaced repetition,
+                            and note-taking methods that can help you
+                            understand and remember information.
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- RESOURCE 2 -->
+
+                    <div class="resource-card">
+
+                        <div class="resource-icon">
+                            02
+                        </div>
+
+                        <h2>
+                            Time Management
+                        </h2>
+
+                        <p>
+                            Learn how to create a realistic study
+                            timetable, set priorities, and break
+                            large assignments into manageable tasks.
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- RESOURCE 3 -->
+
+                    <div class="resource-card">
+
+                        <div class="resource-icon">
+                            03
+                        </div>
+
+                        <h2>
+                            Exam Preparation
+                        </h2>
+
+                        <p>
+                            Prepare for assessments with revision
+                            plans, practice questions, and practical
+                            tips for managing exam pressure.
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- RESOURCE 4 -->
+
+                    <div class="resource-card">
+
+                        <div class="resource-icon">
+                            04
+                        </div>
+
+                        <h2>
+                            Goal Setting
+                        </h2>
+
+                        <p>
+                            Set achievable academic goals, monitor
+                            your progress, and build consistent
+                            learning habits throughout the year.
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- RESOURCE 5 -->
+
+                    <div class="resource-card">
+
+                        <div class="resource-icon">
+                            05
+                        </div>
+
+                        <h2>
+                            Assignment Planning
+                        </h2>
+
+                        <p>
+                            Organise research, plan your deadlines,
+                            and divide complex assignments into
+                            smaller steps that are easier to complete.
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- RESOURCE 6 -->
+
+                    <div class="resource-card">
+
+                        <div class="resource-icon">
+                            06
+                        </div>
+
+                        <h2>
+                            Healthy Study Habits
+                        </h2>
+
+                        <p>
+                            Find ways to balance study sessions
+                            with breaks, sufficient rest, and other
+                            responsibilities in your daily life.
+                        </p>
+
+                    </div>
+
+
+                </div>
 
             </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <p>
+                © 2026 LearnSpace. All rights reserved.
+            </p>
 
         </div>
 
     </footer>
 
+
 </body>
+
 </html>

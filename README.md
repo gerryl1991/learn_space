@@ -92,7 +92,6 @@ LearnSpace/
 ├── README.md
 ├── css/
 │   ├── style.css
-│   └── contact.css
 ├── images/
 │   ├── books-and-learning-materials.avif
 │   ├── laptop-for-online-learning.avif
