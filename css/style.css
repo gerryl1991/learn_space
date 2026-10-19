@@ -4,8 +4,7 @@
 
 @font-face {
     font-family: "Roboto";
-    src: url("../fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf")
-        format("truetype");
+    src: url("../fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf") format("truetype");
     font-weight: 100 900;
     font-style: normal;
     font-display: swap;
@@ -113,10 +112,8 @@ textarea {
 ========================================= */
 
 .container {
-    width: min(
-        calc(100% - 40px),
-        var(--container-width)
-    );
+    width: min(calc(100% - 40px),
+            var(--container-width));
 
     margin-inline: auto;
 }
@@ -272,11 +269,9 @@ textarea {
     overflow: hidden;
 
     background:
-        radial-gradient(
-            circle at 90% 10%,
+        radial-gradient(circle at 90% 10%,
             rgba(56, 130, 246, 0.10),
-            transparent 35%
-        ),
+            transparent 35%),
         var(--color-background);
 }
 
@@ -348,7 +343,7 @@ textarea {
     letter-spacing: -1.5px;
 }
 
-.section-heading > p:last-child {
+.section-heading>p:last-child {
     max-width: 700px;
 
     color: var(--color-muted);
@@ -460,11 +455,9 @@ textarea {
 
 .content-section-light {
     background:
-        linear-gradient(
-            135deg,
+        linear-gradient(135deg,
             #f1f5f9,
-            #eaf2ff
-        );
+            #eaf2ff);
 }
 
 .content-container {
@@ -672,7 +665,7 @@ textarea {
     line-height: 1.2;
 }
 
-.contact-information > p {
+.contact-information>p {
     margin-bottom: 32px;
 
     color: var(--color-muted);
@@ -904,6 +897,45 @@ textarea {
 }
 
 
+/* FOOTER LAYOUT */
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-logo {
+    font-size: 24px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.footer-nav a {
+    color: #cbd5e1;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.footer-nav a:hover,
+.footer-nav a:focus-visible {
+    color: var(--color-white);
+    text-decoration: underline;
+}
+
+.footer-nav a:focus-visible,
+.footer-logo:focus-visible {
+    outline: 2px solid var(--color-white);
+    outline-offset: 4px;
+}
+
+
 /* =========================================
    TABLET
    768px - 1199px
@@ -935,10 +967,8 @@ textarea {
 @media (max-width: 767px) {
 
     .container {
-        width: min(
-            calc(100% - 32px),
-            var(--container-width)
-        );
+        width: min(calc(100% - 32px),
+                var(--container-width));
     }
 
 
@@ -972,10 +1002,10 @@ textarea {
 
         background: var(--color-dark);
 
-        border-top: 1px solid rgba(255,255,255,0.08);
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
 
         box-shadow:
-            0 12px 25px rgba(0,0,0,0.15);
+            0 12px 25px rgba(0, 0, 0, 0.15);
     }
 
     .main-nav a {
@@ -986,7 +1016,7 @@ textarea {
         display: none;
     }
 
-    .menu-toggle:checked ~ .main-nav {
+    .menu-toggle:checked~.main-nav {
         display: flex;
     }
 
@@ -1007,7 +1037,7 @@ textarea {
         letter-spacing: -1px;
     }
 
-    .section-heading > p:last-child {
+    .section-heading>p:last-child {
         font-size: 17px;
     }
 
