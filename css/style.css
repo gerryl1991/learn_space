@@ -112,12 +112,12 @@ textarea {
 ========================================= */
 
 .container {
-    width: min(calc(100% - 40px),
-            var(--container-width));
-
+    width: min(
+        calc(100% - clamp(32px, 6vw, 96px)),
+        var(--container-width)
+    );
     margin-inline: auto;
 }
-
 
 /* =========================================
    HEADER
