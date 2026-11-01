@@ -381,7 +381,7 @@ textarea {
 
 .about-image {
     position: relative;
-
+    min-width: 0;
     flex: 1;
 }
 
@@ -421,6 +421,7 @@ textarea {
 /* TEXT */
 
 .about-text {
+    min-width: 0;
     flex: 1;
 }
 
@@ -646,6 +647,7 @@ textarea {
 }
 
 .contact-image {
+    min-width: 0;
     flex: 1;
 }
 
@@ -660,6 +662,7 @@ textarea {
 }
 
 .contact-information {
+    min-width: 0;
     flex: 1;
 }
 
@@ -756,10 +759,12 @@ textarea {
 }
 
 .contact-form-layout .content-block {
+    min-width: 0;
     flex: 1;
 }
 
 .contact-form {
+    min-width: 0;
     flex: 1;
 
     padding: 36px;
