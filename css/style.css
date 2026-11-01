@@ -313,9 +313,9 @@ textarea {
 .section-heading {
     position: relative;
 
-    max-width: 780px;
+    max-width: 100%;
 
-    margin-bottom: 60px;
+    margin-bottom: 32px;
 }
 
 .section-label {
@@ -353,7 +353,7 @@ textarea {
 }
 
 .section-heading>p:last-child {
-    max-width: 700px;
+    max-width: 75ch;
 
     color: var(--color-muted);
 
@@ -470,7 +470,7 @@ textarea {
 }
 
 .content-container {
-    max-width: 850px;
+    max-width: 100%;
 }
 
 .content-block {
