@@ -373,7 +373,7 @@ textarea {
     display: flex;
     align-items: center;
 
-    gap: 70px;
+    gap: clamp(24px, 4vw, 56px);
 }
 
 
@@ -642,7 +642,7 @@ textarea {
     display: flex;
     align-items: center;
 
-    gap: 70px;
+    gap: clamp(24px, 4vw, 56px);
 }
 
 .contact-image {
@@ -752,7 +752,7 @@ textarea {
     display: flex;
     align-items: flex-start;
 
-    gap: 70px;
+    gap: clamp(24px, 4vw, 56px);
 }
 
 .contact-form-layout .content-block {
