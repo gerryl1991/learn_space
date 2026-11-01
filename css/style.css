@@ -273,7 +273,7 @@ textarea {
 .information-section {
     position: relative;
 
-    padding: 90px 0 100px;
+    padding: clamp(32px, 4vw, 56px) 0;
 
     overflow: hidden;
 
@@ -457,7 +457,7 @@ textarea {
 .content-section {
     position: relative;
 
-    padding: 80px 0;
+    padding: clamp(32px, 4vw, 56px) 0;
 
     background: var(--color-white);
 }
