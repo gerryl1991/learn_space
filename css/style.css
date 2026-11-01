@@ -1038,11 +1038,11 @@ textarea {
     /* PAGE */
 
     .information-section {
-        padding: 60px 0 70px;
+        padding: 32px 0 40px;
     }
 
     .section-heading {
-        margin-bottom: 42px;
+        margin-bottom: 28px;
     }
 
     .section-heading h1 {
@@ -1081,7 +1081,7 @@ textarea {
     /* CONTENT */
 
     .content-section {
-        padding: 60px 0;
+        padding: 32px 0;
     }
 
     .content-block h2 {
