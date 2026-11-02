@@ -132,10 +132,19 @@
                     <div class="about-image">
 
                         <img
-                            src="./images/students-studying-2.avif"
-                            alt="Students studying together in a library"
-                            loading="lazy"
-                        >
+                    src="./images/about-study-960.webp"
+                     srcset="
+                    ./images/about-study-480.webp 480w,
+                     ./images/about-study-960.webp 960w,
+                    ./images/about-study-1440.webp 1440w
+                    "
+                    sizes="(max-width: 767px) calc(100vw - 32px), 47vw"
+                    width="5756"
+                    height="4000"
+                    alt="Students studying together in a library"
+                    loading="eager"
+                     fetchpriority="high"
+>
 
                     </div>
 
