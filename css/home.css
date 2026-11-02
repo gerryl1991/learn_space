@@ -39,8 +39,8 @@
 .hero-content {
     display: flex;
     align-items: center;
-    gap: 64px;
-    padding: 72px 0 96px;
+    gap: clamp(24px, 4vw, 56px);
+    padding: clamp(32px, 4vw, 56px) 0;
 }
 
 .hero-content::before {
@@ -61,6 +61,7 @@
 
 .hero-text {
     flex: 1;
+    min-width: 0;
 }
 
 .hero-text h1 {
@@ -76,7 +77,7 @@
 }
 
 .hero-description {
-    max-width: 480px;
+    max-width: 100%;
     margin-bottom: 28px;
     font-size: 18px;
     line-height: 1.6;
@@ -85,6 +86,7 @@
 
 .hero-image {
     flex: 1;
+    min-width: 0;
 }
 
 .hero-image img {
@@ -97,7 +99,7 @@
 /* ---------- INFORMATION ---------- */
 
 .info-section {
-    padding: 64px 0 80px;
+    padding: 40px 0;
     background: var(--color-white);
 }
 
@@ -111,12 +113,14 @@
 }
 
 .info-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 32px;
 }
 
 .info-card {
+    flex: 1 1 calc(25% - 24px);
+    min-width: 0;
     text-align: center;
 }
 
@@ -151,12 +155,12 @@
 /* ---------- QUOTE ---------- */
 
 .quote-section {
-    padding: 80px 0;
+    padding: 48px 0;
     background: var(--home-quote-bg);
 }
 
 .quote-content {
-    max-width: 800px;
+    max-width: 75ch;
     margin-inline: auto;
 }
 
@@ -180,7 +184,7 @@
 /* ---------- CALL TO ACTION ---------- */
 
 .action-section {
-    padding: 72px 0;
+    padding: 48px 0;
     background: var(--color-white);
 }
 
@@ -227,8 +231,8 @@
 /* ---------- TABLET ---------- */
 
 @media (max-width: 1199px) {
-    .info-grid {
-        grid-template-columns: repeat(2, 1fr);
+    .info-card {
+        flex-basis: calc(50% - 16px);
     }
 }
 
@@ -287,7 +291,7 @@
 }
 
 @media (max-width: 480px) {
-    .info-grid {
-        grid-template-columns: 1fr;
+    .info-card {
+        flex-basis: 100%;
     }
 }
